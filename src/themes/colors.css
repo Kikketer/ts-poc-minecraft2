@@ -1,0 +1,11 @@
+:root {
+  --white: white;
+  --black: black;
+
+  --blue-50: darkblue;
+  --blue-100: blue;
+  --blue-500: lightblue;
+
+  --grey-50: rgb(66, 66, 66);
+  --grey-100: rgb(151, 151, 151);
+}

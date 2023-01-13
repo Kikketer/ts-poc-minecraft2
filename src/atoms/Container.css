@@ -1,0 +1,35 @@
+.ts_container {
+  background: var(--container-background);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.ts_container .heading {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "title message actions"
+    "main main main";
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.ts_container .title {
+  grid-area: title;
+}
+
+.ts_container .actions {
+  grid-area: actions;
+}
+
+.ts_container .message {
+  grid-area: message;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.ts_container .content {
+  grid-area: main;
+  margin-top: 0.5rem;
+}
